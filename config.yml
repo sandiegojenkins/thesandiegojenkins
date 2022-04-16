@@ -1,0 +1,18 @@
+baseURL: ""
+languageCode: en-us
+title: thegaryjenkins
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Welcome to my page"
+    Content: Gary Jenkins // Solutions Architect // San Diego // California
+  socialIcons:
+      - name: linkedin
+        url: https://www.linkedin.com/in/thegaryjenkins/
+      - name: github
+        url: https://github.com/sandiegojenkins
+
+  cover:
+    linkFullImages: true
+  ShowPostNavLinke: true
