@@ -1,7 +1,7 @@
 ---
 title: "Netskope is up"
 date: 2022-04-22T15:15:45-07:00
-description: "Now that you have your Netskope Tenant, what do you do now?"
+description: "Now that you have your Netskope Tenant, what do you do?"
 draft: falses
 ---
 
