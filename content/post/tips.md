@@ -71,3 +71,10 @@ I am already in the folder that holds the log.zip file in this example. I am sen
 ```
 scp log.zip username@10.10.10.111:/logs.zip
 ``` 
+
+## Ubuntu commands
+
+To delete a directory that has files in it. 
+```
+rm -rf <folder>/
+``` 
