@@ -1,6 +1,6 @@
 ---
 title: "Tips"
-date: 2022-05-19T11:54:49-07:00
+date: 2022-07-20T11:54:49-07:00
 draft: false
 ---
 
@@ -52,6 +52,16 @@ containrrr/watchtower                      1.3.0          dd78a816fb76   13 mont
 traefik                                    v2.3           70860b377f5f   20 months ago   92.1MB
 ubuntu@ip-10-0-0-207:~$
 ```
+
+#### mapping ports
+
+When mapping ports in docker the first port is the external facing one and the second port number is the inside, container facing port. 
+
+```
+ports:
+  - 3001:3000
+````
+In this case the 3001 port is what you would be hitting from an your computer and port 3000 is what your docker container would be receiving. 
 
 ## SCP
 As I am working with servers in the cloud or in a docker folder, I find myself needed to get files to or from the server I am working on. 
